@@ -39,33 +39,33 @@ Dessa forma, as tabelas se **relacionam** da seguinte maneira:
 
 1° Tabela de Stakeholders (empresas parceiras):
 
-ID_Empresa = INT PRIMARY KEY 🔑
-nome = VARCHAR 🔤
-endereço = VARCHAR 🔤
-telefone = INT 1️⃣
-e-mail = VARCHAR 🔤
-cnpj = INT 1️⃣
+* ID_Empresa = INT PRIMARY KEY 🔑
+* nome = VARCHAR 🔤
+* endereço = VARCHAR 🔤
+* telefone = INT 1️⃣
+* e-mail = VARCHAR 🔤
+* cnpj = INT 1️⃣
 
 2° Tabela de tecnologias:
 
-ID_tecnologia = INT PRIMARY KEY 🔑
-descrição = VARCHAR 🔤
-área = VARCHAR 🔤
-nome = VARCHAR 🔤
+* ID_tecnologia = INT PRIMARY KEY 🔑
+* descrição = VARCHAR 🔤
+* área = VARCHAR 🔤
+* nome = VARCHAR 🔤
 
 3° Tabela de colaboradores:
 
-ID-Colaborador = INT PRIMARY KEY 🔑
-nome = VARCHAR 🔤
-cargo = VARCHAR 🔤
-ID_Empresa = FOREST KEY 🔐
+* ID-Colaborador = INT PRIMARY KEY 🔑
+* nome = VARCHAR 🔤
+* cargo = VARCHAR 🔤
+* ID_Empresa = FOREST KEY 🔐
 
 4° Tabela de tecnologias utilizadas pelas empresas:
 
-ID_Empresa = FOREST KEY 🔐
-ID_Tecnologia =  FOREST KEY 🔐
+* ID_Empresa = FOREST KEY 🔐
+* ID_Tecnologia =  FOREST KEY 🔐
 
 
 
-Essa estrutura de tabelas permite armazenar e relacionar os dados importantes do sistema RESILIADATA, facilitando a avaliação das tecnologias utilizadas pelas empresas parceiras e a identificação de seus colaboradores.
+**Essa estrutura de tabelas permite armazenar e relacionar os dados importantes do sistema RESILIADATA, facilitando a avaliação das tecnologias utilizadas pelas empresas parceiras e a identificação de seus colaboradores.**
 
