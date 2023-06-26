@@ -58,12 +58,12 @@ Dessa forma, as tabelas se **relacionam** da seguinte maneira:
 * ID-Colaborador = INT PRIMARY KEY 🔑
 * nome = VARCHAR 🔤
 * cargo = VARCHAR 🔤
-* ID_Empresa = FOREST KEY 🔐
+* ID_Empresa = FOREIGN KEY 🔐
 
 4° Tabela de tecnologias utilizadas pelas empresas:
 
-* ID_Empresa = FOREST KEY 🔐
-* ID_Tecnologia =  FOREST KEY 🔐
+* ID_Empresa = FOREIGN KEY 🔐
+* ID_Tecnologia =  FOREIGN KEY 🔐
 
 
 
